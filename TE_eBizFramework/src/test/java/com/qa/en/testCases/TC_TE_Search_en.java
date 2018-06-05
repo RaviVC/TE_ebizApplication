@@ -23,6 +23,7 @@ public class TC_TE_Search_en {
 		driver.manage().deleteAllCookies();
 		driver.manage().window().maximize();
 		driver.get("http://www-stage.te.com/usa-en/home.html");
+		System.out.println("URL Launched");
 	}
 	
 	@AfterTest
